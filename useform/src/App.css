@@ -1,0 +1,66 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  height: 85vh;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  background-color: white;
+  color: black;
+  /* align-self: center; */
+}
+fieldset{
+  margin: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+legend{
+  background-color: black;
+  color: white;
+}
+
+form input{
+  font-size: 1rem;
+  /* color: aliceblue; */
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  height: 4.5vh;
+}
+
+form input[type="submit"]{
+  cursor: pointer;
+  background-color: rgb(56,201,61);
+  margin-top: 20px;
+  color: white;
+
+}
+
+.success{
+  background-color: aquamarine;
+  border-radius: 4px;
+  text-align: center;
+}
+/* form  */
+.err{
+  color: red;
+  margin: 0;
+  font-size: smaller;
+  margin-bottom: 2px;
+
+}
+
+.reset{
+  cursor: pointer;
+  color: white;
+  background-color: rgba(34, 184, 122, 0.727);
+  border: 0;
+  border-radius: 4px;
+  margin: 1px;
+}
